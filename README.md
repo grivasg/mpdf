@@ -68,13 +68,15 @@ RewriteRule ^ index.php [QSA,L]
 Este archivo deberá contener la información según el entorno en que se ejecute el proyecto y deberá contener esta información
 
 ```
-DEBUG_MODE = 0
-DB_HOST=host
-DB_SERVICE=port
-DB_SERVER=server_name
-DB_NAME=db_name
+DEBUG_MODE = 1
+DB_HOST=host.docker.internal
+DB_SERVICE=9088
+DB_USER=informix
+DB_PASS=in4mix
+DB_NAME=tienda
+DB_SERVER=informix
 
-APP_NAME = "app_name"
+APP_NAME = "_chart"
 ```
 
 ###  6. Instalar paquetes de node
