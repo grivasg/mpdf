@@ -34,7 +34,7 @@ class EmailController
             $email->setFrom($_ENV['MAIL_FROM_ADDRESS'], $_ENV['MAIL_FROM_NAME']);
             $email->isHTML();
             
-            // Usa ruta absoluta desde la raíz del proyecto para el archivo PDF
+            
             $projectRoot = dirname(_DIR_, 1); // Ajusta si es necesario
             $filePath = $projectRoot . '/public/temptemp/reporte.pdf';
             if (!file_exists($filePath)) {
@@ -45,7 +45,7 @@ class EmailController
             $html = $router->load('email/saludo');
             $email->Subject = "Prueba de correo";
             $email->Body = $html;
-            $email->addAddress('capurivas@gmail.com', 'DANIEL');
+            $email->addAddress('afuentesj1@miumg.edu.gt', 'ABNER FUENTES');
 
             $email->send();
 
