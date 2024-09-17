@@ -1,1 +1,0 @@
-<p>RESERVADO VERDE</p>

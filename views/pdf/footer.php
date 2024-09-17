@@ -1,1 +1,0 @@
-<p>RESERVADO {PAGENO} de {nbpg} </p>
