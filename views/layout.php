@@ -39,7 +39,10 @@
                                 <a class="dropdown-item nav-link text-white " href="/mpdf/pdf"><i class="bi bi-file-earmark-pdf-fill"></i> GUARDAR PDF</a>
                             </li>
                             <li>
-                                <a class="dropdown-item nav-link text-white " href="/mpdf/email"><i class="bi bi-envelope-arrow-up-fill"></i> ENVIAR CORREO</a>
+                                <a class="dropdown-item nav-link text-white " href="/mpdf/email"><i class="bi bi-envelope-at"></i> ENVIAR CORREO</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-link text-white " href="/mpdf/subir"><i class="bi bi-envelope-plus-fill"></i> CARGAR ARCHIVOS</a>
                             </li>
                         </ul>
                     </div>
